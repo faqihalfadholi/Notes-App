@@ -3,6 +3,10 @@
  * Homepage 
 */
 exports.homepage = async (req, res) => {
+  if (req.isAuthenticated()) {
+    return res.redirect('/dashboard');
+  }
+
   const locals = {
     title: "NodeJs Notes",
     description: "Free NodeJS Notes App.",

@@ -1,8 +1,5 @@
 # Notes-NodeJs-CRUD-MongoDB
 
-## Udates
-[x] Fixed Mongoose Notes Query Issue 7.0.0
-
 ## You need:
 - Database (MongoDB)
 - Google Console Account to create the API Auth Key's
@@ -18,7 +15,7 @@ GOOGLE_CALLBACK_URL=http://localhost:5000/google/callback
 ```
 
 ## Installation
-To install and run this project - install dependencies using npm and then start your server:
+Install dependencies using npm and then start:
 
 ```
 $ npm install
